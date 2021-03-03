@@ -30,7 +30,7 @@ window.addEventListener("load", (e) => {
   <input id="ogl-input-width" onfocus="this.value=''" type="number" value="${width}"/>
   </div></div><div class="grid-layout-ui-column"><div class="grid-layout-ui-box">
   <select id="ogl-input-z"><option value="${zindexTwo}">${zindexTwo}</option>
-  <option value="${zindexTwo}">${zindexOne}</option></select></div><div class="grid-layout-ui-box">
+  <option value="${zindexOne}">${zindexOne}</option></select></div><div class="grid-layout-ui-box">
   <input id="ogl-layout-gap" onfocus="this.value=''" type="number" value="${gap}">
   </div><div id="gridOK" class="grid-layout-ui-box" onclick="$scope.setGridLayout()">${numberOfGrids}
   </div></div></div>`;
