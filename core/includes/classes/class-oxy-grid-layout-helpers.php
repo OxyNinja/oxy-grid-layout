@@ -27,7 +27,8 @@ class Oxy_Grid_Layout_Helpers{
 	static public function network_active() {
 		if (is_plugin_active_for_network('oxy-grid-layout/oxy-grid-layout.php')) {
 			return true;
+		} else {
+			return false;
 		}
 	}
-
 }

@@ -24,8 +24,10 @@ if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 	exit;
 }
 
-if ( Oxy_Grid_Layout_Helpers::network_active() ) {
-	delete_site_option('oxy_grid_layout');
-} else {
-	delete_option('oxy_grid_layout');
+if ( function_exists( 'is_plugin_active_for_network' ) ) {
+	if ( is_plugin_active_for_network('oxy-grid-layout/oxy-grid-layout.php') ) {
+		delete_site_option('oxy_grid_layout');
+	} else {
+		delete_option('oxy_grid_layout');
+	}
 }

@@ -5,9 +5,9 @@ Donate link: https://buymeacoffee.com/rados
 Contributors: Rados51
 Tags: Oxygen Builder, Grid Layout, Design, OxyNinja
 Requires at least: 5.1
-Tested up to: 5.7
+Tested up to: 5.7.2
 Requires PHP: 7.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -37,6 +37,9 @@ Go to `Oxygen` > `OxyGridLayout`. There you can tweak your settings.
 7. Tweak your settings
 
 == Changelog ==
+
+= 1.0.2: May 26, 2021 =
+* [Fix] Uninstall Error on MultiSite WP
 
 = 1.0.1: March 3, 2021 =
 * [Fix] z-index issue

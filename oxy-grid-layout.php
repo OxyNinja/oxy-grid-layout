@@ -5,12 +5,12 @@
  * @package       ONGRIDLAYOUT
  * @author        Rados51
  * @license       gplv3-or-later
- * @version       1.0.1
+ * @version       1.0.2
  *
  * @wordpress-plugin
  * Plugin Name:   OxyGridLayout by OxyNinja
  * Description:   Simple grid layout for Oxygen Builder. Similar as you can find in Adobe XD/Sketch/Figma.
- * Version:       1.0.1
+ * Version:       1.0.2
  * Author:        OxyNinja
  * Author URI:    https://oxyninja.com
  * Text Domain:   oxy-grid-layout
@@ -28,7 +28,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 define( 'ONGRIDLAYOUT_NAME', 'OxyGridLayout' );
 
 // Plugin version
-define( 'ONGRIDLAYOUT_VERSION', '1.0.1' );
+define( 'ONGRIDLAYOUT_VERSION', '1.0.2' );
 
 // Plugin Root File
 define( 'ONGRIDLAYOUT_PLUGIN_FILE',	__FILE__ );
